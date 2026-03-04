@@ -151,13 +151,13 @@ docker build -t cleanliness-nmsai .
 ### Run Container
 
 ```bash
-docker run -p 8004:8000 cleanliness-nmsai
+docker run -p 8003:8000 cleanliness-nmsai
 ```
 
 Service will be available at:
 
 ```
-http://localhost:8004/process-video
+http://localhost:8003/process-video
 ```
 
 ---
