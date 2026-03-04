@@ -15,7 +15,7 @@ import time
 
 # ================== CONFIG ==================
 MODEL_PATH = "cleanliness-x-100.pt"
-MODEL_URL = "https://github.com/eldisja1/Cleanliness-NMSAI/releases/download/v1.0/cleanliness-x-100.pt"
+MODEL_URL = "https://github.com/eldisja1/cleanliness-nmsai/releases/download/v1.0/cleanliness-x-100.pt"
 
 DIRTY_CLASSES = {"dryleaves", "grass", "tree"}
 CONF_THRESHOLD = 0.29
