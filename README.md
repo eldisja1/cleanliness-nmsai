@@ -1,6 +1,6 @@
 # Cleanliness-NMSAI
 
-Cleanliness-NMSAI is a production-ready AI microservice for automated cleanliness detection from video sources. The service processes video input, performs object detection using a YOLO-based model, and determines whether an area requires cleaning.
+Cleanliness-NMSAI is an AI microservice for automated cleanliness detection from video sources. The service processes video input, performs object detection using a YOLO-based model, and determines whether an area requires cleaning.
 
 This system is designed for controlled CPU environments and containerized deployments, with built-in safeguards to ensure stable operation under concurrent load.
 
@@ -37,7 +37,7 @@ The service is built with FastAPI and designed for scalable backend deployment.
 
 ## System Architecture
 
-![System Architecture](Documentation/cleanliness-nmsai-system-architecture.png "")
+![System Architecture](documentation/cleanliness-nmsai-system-architecture.png "")
 ---
 
 ## Model Distribution
@@ -200,4 +200,24 @@ Future versions may include:
 
 ## License
 
-This project is proprietary and intended for controlled production deployment within NMSAI infrastructure.
+Copyright (c) 2026 Eldisja Hadasa
+
+All rights reserved.
+
+This software and associated documentation files (the "Software") are proprietary and confidential.
+
+No part of this Software may be copied, modified, distributed, sublicensed, or used for commercial purposes without explicit written permission from the copyright holder.
+
+Unauthorized use, reproduction, or distribution of this software is strictly prohibited.
+
+---
+
+## Maintainer
+
+**Eldisja Hadasa**
+
+The **Cleanliness-NMSAI** project implements a containerized AI inference service for detecting cleanliness-related objects in video streams using FastAPI and YOLO, designed for CPU-efficient concurrent deployment using Docker and Gunicorn workers.
+
+
+- GitHub: https://github.com/eldisja1
+- LinkedIn: https://www.linkedin.com/in/eldisja-hadasa/
