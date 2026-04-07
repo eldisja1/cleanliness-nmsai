@@ -37,15 +37,15 @@ The service is built with FastAPI and designed for scalable backend deployment.
 
 ## System Architecture
 
-![System Architecture](documentation/cleanliness-nmsai-system-architecture.png "")
+![System Architecture](documentation/cleanliness-nmsai-system-architecture.png)
 ---
 
 ## Model Distribution
 
 The production model is distributed via GitHub Release.
 
-Version: `v1.0`  
-Model File: `cleanliness-x-100.pt`
+Version: `v1.1.0`  
+Model File: `cleanliness-11m-100.pt`
 
 The application automatically downloads the model at startup if it is not present locally.
 
@@ -195,6 +195,14 @@ Future versions may include:
 - Asynchronous processing support
 - GPU optimization
 - Horizontal scaling enhancements
+
+v1.1.0
+Model upgrade release including:
+
+Updated cleanliness detection model
+Improved detection performance and model efficiency
+Maintained compatibility with the existing inference pipeline
+No changes to API behavior or deployment workflow
 
 ---
 
