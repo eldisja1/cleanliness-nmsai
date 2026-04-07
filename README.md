@@ -189,13 +189,6 @@ http://localhost:8003/process-video
 ### v1.0  
 Initial production release including core inference pipeline and model distribution.
 
-Future versions may include:
-
-- Multi-frame decision logic
-- Asynchronous processing support
-- GPU optimization
-- Horizontal scaling enhancements
-
 ### v1.1.0
 Model upgrade release including:
 
