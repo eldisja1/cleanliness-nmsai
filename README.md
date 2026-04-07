@@ -186,7 +186,7 @@ http://localhost:8003/process-video
 
 ## Versioning
 
-v1.0  
+### v1.0  
 Initial production release including core inference pipeline and model distribution.
 
 Future versions may include:
@@ -196,13 +196,13 @@ Future versions may include:
 - GPU optimization
 - Horizontal scaling enhancements
 
-v1.1.0
+### v1.1.0
 Model upgrade release including:
 
-Updated cleanliness detection model
-Improved detection performance and model efficiency
-Maintained compatibility with the existing inference pipeline
-No changes to API behavior or deployment workflow
+- Updated cleanliness detection model
+- Improved detection performance and model efficiency
+- Maintained compatibility with the existing inference pipeline
+- No changes to API behavior or deployment workflow
 
 ---
 
