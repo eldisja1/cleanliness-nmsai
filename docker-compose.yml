@@ -1,6 +1,6 @@
 services:
   cleanliness-api:
-    container_name: cleanliness-api
+    container_name: cleanliness-nmsai
     build: .
     ports:
       - "8003:8000"
