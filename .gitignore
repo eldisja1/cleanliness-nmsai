@@ -34,12 +34,16 @@ logs/
 # AI / Model Artifacts
 # =========================
 *.pt
+*.pth
+*.ckpt
 *.onnx
 *.engine
 runs/
 outputs/
 predictions/
 checkpoints/
+weights/
+models/
 
 # =========================
 # Temporary Files
